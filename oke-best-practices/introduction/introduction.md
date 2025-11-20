@@ -2,44 +2,45 @@
 
 ## About this Workshop
 
-This introduction covers the deployment of OKE clusters using terraform modules. Use this text to set up the story for the workshop. Be engaging - what will the learner get from spending their time on this workshop?
+In this hands-on LiveLab, you will learn how to design and deploy advanced Oracle Kubernetes Engine (OKE) clusters using Terraform modules and OCI CLI. You will gain practical experience in building reusable, modular infrastructure components, managing dynamic environment configurations, and implementing secure, highly available, and optimized OKE clusters.
 
-Estimated Workshop Time: -- hours -- minutes (This estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.)
-
-*You may add an option video, using this format: [](youtube:YouTube video id)*
-
-  [](youtube:zNKxJjkq0Pw)
+Workshop Estimated time: 90 minutes
 
 ### Objectives
 
-*List objectives for the workshop*
-
 In this workshop, you will learn how to:
-* Provision
-* Setup
-* Load
-* Query
+
+* Provision advanced OKE clusters using Terraform modules and Oracle Resource Manager (ORM)
+* Implement reusable infrastructure components including VCNs, Bastion hosts, and OKE clusters
+* Apply compartment separation for security and optimized node pools for performance
+* Perform node cycling and high availability configurations with minimal downtime
+* Automate end-to-end cluster provisioning, updates, and teardown using Terraform CLI and OCI CLI
+* (Optional) Clean up resources to avoid unnecessary costs
 
 ### Prerequisites (Optional)
 
-*List the prerequisites for this lab using the format below. Fill in whatever knowledge, accounts, etc. is needed to complete the lab. **Do NOT list** each previous lab as a prerequisite.*
-
 This lab assumes you have:
-* An Oracle account
-* All previous labs successfully completed
 
-*This is the "fold" - below items are collapsed by default*
+* An Oracle account with access to OCI and necessary permissions
+* Intermediate understanding of Kubernetes, networking, and Infrastructure as Code (IaC) principles
+* Working knowledge of Terraform, OCI CLI, and Oracle Resource Manager
 
-In general, the Introduction does not have Steps.
+### Labs Included
+
+* Create OKE Cluster with Terraform CLI
+   - Configure variables, networking, OKE cluster, node pools, and Bastion hosts, then deploy and verify the cluster.
+* Create OKE Cluster with Oracle Resource Manager (ORM)
+   - Use ORM to create stacks, execute plan and apply jobs, and manage destroy operations.
+* Demonstrate Key OKE Capabilities
+   - Explore reusable modules, compartment separation, node cycling, high availability, and multiple node pool configurations.
 
 ## Learn More
 
-*(optional - include links to docs, white papers, blogs, etc)*
-
-* [URL text 1](http://docs.oracle.com)
-* [URL text 2](http://docs.oracle.com)
+* [Deploy Oracle Cloud Infrastructure Kubernetes Engine (OKE) using Advanced Terraform Modules](https://docs.oracle.com/en/learn/oke-cluster-automation/index.html#next-steps)
+* [Terraform OCI OKE on GitHub](https://github.com/oracle-terraform-modules/terraform-oci-oke)
+* [OCI CLI](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm)
+* [OCI Resource Manager](https://docs.oracle.com/en-us/iaas/Content/ResourceManager/home.htm)
 
 ## Acknowledgements
-* **Author** - <Name, Title, Group>
-* **Contributors** -  <Name, Group> -- optional
-* **Last Updated By/Date** - <Name, Month Year>
+* **Author** - Mahamat Guiagoussou (Master Principal Cloud Architect), Payal Sharma (Senior Cloud Architect), John Adewumi (Senior Cloud Architect), Matthew McDaniel (Staff Cloud Engineer)
+* **Last Updated By/Date** - <Payal Sharma, Nov 2025>
