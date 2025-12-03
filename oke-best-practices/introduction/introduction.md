@@ -17,7 +17,7 @@ In this workshop, you will learn how to:
 * Automate end-to-end cluster provisioning, updates, and teardown using Terraform CLI and OCI CLI
 * (Optional) Clean up resources to avoid unnecessary costs
 
-### Prerequisites (Optional)
+### Prerequisites
 
 This lab assumes you have:
 

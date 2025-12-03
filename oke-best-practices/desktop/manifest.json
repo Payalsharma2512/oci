@@ -17,15 +17,15 @@
     {
       "title": "Lab 1: Create OKE Cluster with Terraform CLI",
       "description": "Labs that follow the introduction are numbered, starting with Lab 1",
-      "filename": "../../provision/provision.md"
+      "filename": "../lab1/lab1.md"
     },
     {
       "title": "Lab 2: Create OKE Cluster with Oracle Resource Manger (ORM)",
-      "filename": "../../setup/setup.md"
+      "filename": "../lab2/lab2.md"
     },
     {
       "title": "Lab 3: Demonstrate key OKE capability using OKE cluster",
-      "filename": "../../data-load/data-load.md"
+      "filename": "../lab3/lab3.md"
     },
     {
       "title": "Need Help?",
