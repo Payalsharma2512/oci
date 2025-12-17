@@ -1,4 +1,5 @@
-### Option 2: Automating OKE with OCI Resource Manager   
+
+### Lab 2: Automating OKE with OCI Resource Manager   
 
 **OCI Resource Manager (ORM)** is the ideal choice when you need a managed, cloud-native solution for infrastructure deployments. It’s particularly suited for collaborative, enterprise environments where security, centralized state management, and governance are critical. ORM’s key advantage is that it handles the entire deployment lifecycle within OCI, securely storing the state file and preventing conflicts. This eliminates the need for local setup or managing a shared backend. Furthermore, ORM's deep integration with the Oracle Cloud allows it to leverage OCI-native features like Identity and Access Management (IAM), enhancing security and control.
 
